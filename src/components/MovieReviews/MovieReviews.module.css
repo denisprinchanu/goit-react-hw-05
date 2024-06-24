@@ -1,0 +1,17 @@
+.reviewsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.review {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  width: calc((100% - 16px) / 2);
+  padding: 10px;
+}
+
+.text {
+  font-size: 16px;
+}

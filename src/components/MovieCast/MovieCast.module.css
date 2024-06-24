@@ -1,0 +1,15 @@
+.add {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.character {
+  width: calc((100% - 64px) / 5);
+}
